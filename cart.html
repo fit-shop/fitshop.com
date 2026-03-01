@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Кошик</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="btn">Назад</a>
+</header>
+
+<div class="cart-page">
+  <h2>Ваш кошик</h2>
+  <div id="cart-items"></div>
+
+  <div class="receipt">
+    <h3>Чек</h3>
+    <div id="receipt-items"></div>
+    <h3 id="total-price"></h3>
+  </div>
+
+  <button class="checkout-btn" onclick="checkout()">Оформити замовлення</button>
+  <p id="checkout-message" class="checkout-message"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

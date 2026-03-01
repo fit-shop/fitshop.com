@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    #000000 20%,
+    #001a33 50%,
+    #330000 80%,
+    #660000 100%
+  );
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px;
+}
+
+.logo {
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+
+.cart-link {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+  padding: 40px;
+}
+
+.product {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(45deg, black, darkblue, darkred);
+  background-size: 300%;
+  transition: 0.6s;
+}
+
+.btn:hover {
+  background-position: right;
+  transform: scale(1.1);
+}
+
+.product-page {
+  text-align: center;
+  padding: 60px;
+}
+
+.cart-page {
+  padding: 40px;
+}
+
+.receipt {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 25px;
+  background: linear-gradient(45deg, black, darkblue, darkred);
+}
+
+.checkout-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: darkred;
+  color: white;
+  font-weight: bold;
+}
+
+.checkout-message {
+  margin-top: 15px;
+  color: red;
+  font-weight: bold;
+}
+
+.logo {
+  font-size: 42px;
+  letter-spacing: 3px;
+  transition: transform 0.1s ease;
+  display: inline-block;
+}
+
+.cart-item {
+  margin-bottom: 15px;
+}
+
+.quantity-controls {
+  margin-top: 8px;
+}
+
+.btn.small {
+  padding: 5px 12px;
+  font-size: 16px;
+}
+
+.trash-btn {
+  margin-top: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: red;
+  transition: 0.3s;
+}
+
+.trash-btn:hover {
+  transform: scale(1.3);
+}
+
+img {
+  border-radius: 5%;
+}
+
+p {
+  font-family: 'Serif', sans-serif;
+  
+  /* Додаткові параметри для гарного вигляду: */
+  font-size: 16px;      /* Розмір тексту */
+  line-height: 1.6;     /* Відстань між рядками (робить текст легшим для читання) */
+  color: lightgray;       /* Колір тексту (темно-сірий) */
+  margin-bottom: 15px;  /* Відступ знизу між абзацами */
+}
+
