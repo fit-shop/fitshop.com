@@ -14,6 +14,8 @@ const products = [
   {id:7,name:"👼Lyle & Scott Vintage Bucket Hat (Dark Grey)",price:1649,img:"images/photo_2026-03-01_15-32-48.jpg",description:"<p>✨Розмір: One Size (регулюється)</p>  <p>🔒 Оригінал Класичний британський стиль, перевірений часом. Надійна якість для щоденного носіння.</p>  <p>🔥 Культовий золотий орел на фронтальній частині, що додає впізнаваності та акценту вашому образу!</p>"},
 
   {id:8,name:"Lonsdale Black",price:1440,img:"images/photo_2026-03-01_16-21-55.jpg",description:"<p>📏 Розмір: L , XL</p> <p>🔒 Оригінал 👌</p> <p>Ідеальний варіант для повсякденного одягу</p>"},
+
+  {id:8,name:"Weekend Offender Black",price:1820,img:"images/photo_2026-03-01_16-34-56.jpg",description:"<p>📏 Розмір: L</p> <p>🔒 Оригінал 👌</p> <p>Стильний та універсальний вибір для тих, хто цінує якість і комфорт.</p> <p>🔥 Лаконічний дизайн, який легко поєднується з будь-яким образом!</p>"},
 ];
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -140,5 +142,6 @@ function decrease(i){
   saveCart();
   location.reload();
 }
+
 
 
