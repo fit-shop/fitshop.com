@@ -18,7 +18,8 @@ const products = [
   {id:9,name:"Weekend Offender Black",price:1820,img:"images/photo_2026-03-01_16-34-56.jpg",description:"<p>📏 Розмір: L</p> <p>🔒 Оригінал 👌</p> <p>Стильний та універсальний вибір для тих, хто цінує якість і комфорт.</p> <p>🔥 Лаконічний дизайн, який легко поєднується з будь-яким образом!</p>"},
 
   {id:10,name:"👼POLO RALPH LAUREN",price:1999,img:"images/photo_2026-03-01_21-42-59.jpg",description:"<p>🔥Розміри S/XL</p> <p>🔒  Якість 1:1(Преміум)</p>  <p>📦 Доставка 1-2 днів</p>  <p>📭 Відправка Накладним платежем</p>"},
-
+  
+  {id:11,name:"STONE ISLAND",price:2399,img:"images/photo_2026-03-01_22-08-41.jpg",description:"<p>+1  КОМПЛЕКТІ КЛАСИЧНИЙ БАЗОВИЙ ПАТЧ (кількість обмежена)</p>  <p>🔥 Розміри Xs-S-M-L-XL-XXL 🔒</p>   <p>Приємний матеріал 95%бавовна 5%еластат,тканина не розтягується,не кошлатиться.Йдуть на бірках,які по qr перекидають на certilogo.tech. та certilogo.online)</p> <p>📦  Доставка 1-2 днів  📭</p>  <p>Відправка Накладним платежем</p>"},
 ];
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
@@ -145,6 +146,7 @@ function decrease(i){
   saveCart();
   location.reload();
 }
+
 
 
 
