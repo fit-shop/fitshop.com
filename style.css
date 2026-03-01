@@ -154,3 +154,26 @@ p {
   margin-bottom: 15px;  /* Відступ знизу між абзацами */
 }
 
+.social-buttons{
+  display: flex;
+  gap: 15px;
+}
+
+.social-btn{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: linear-gradient(45deg, black, darkblue, red);
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.social-btn:hover{
+  transform: scale(1.1);
+}
+
